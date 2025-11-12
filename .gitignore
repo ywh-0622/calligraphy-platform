@@ -1,0 +1,23 @@
+# 忽略node_modules等开发文件
+node_modules/
+*.log
+.DS_Store
+.env
+.env.local
+
+# 忽略Git相关文件
+.git/
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略构建缓存
+.cache/
+dist/
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
