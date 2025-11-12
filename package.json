@@ -4,31 +4,19 @@
   "description": "墨韵书法篆刻艺术平台 - 传统艺术与现代技术的完美结合",
   "main": "index.html",
   "scripts": {
+    "build": "echo 'Static site - no build needed'",
     "start": "node server.mjs",
-    "dev": "node server.mjs",
-    "deploy": "echo '🎉 项目已部署到GitHub Pages！访问：https://[your-username].github.io/calligraphy-platform'"
+    "dev": "node server.mjs"
   },
   "keywords": [
-    "书法",
-    "篆刻",
-    "艺术",
-    "Vue3",
-    "水墨风",
-    "传统文化",
-    "在线展示",
-    "艺术平台",
-    "GitHub Pages"
+    "calligraphy",
+    "chinese-art",
+    "seal-engraving",
+    "static-site",
+    "traditional-art"
   ],
-  "author": "墨韵书法篆刻艺术平台",
+  "author": "墨韵书法",
   "license": "MIT",
-  "homepage": "https://[your-username].github.io/calligraphy-platform",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/[your-username]/calligraphy-platform.git"
-  },
-  "bugs": {
-    "url": "https://github.com/[your-username]/calligraphy-platform/issues"
-  },
   "engines": {
     "node": ">=16.0.0"
   }
